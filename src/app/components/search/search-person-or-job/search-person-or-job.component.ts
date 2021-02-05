@@ -123,5 +123,10 @@ export class SearchPersonOrJobComponent implements OnInit {
         text: "Error al momento de realizar la consulta",
       });
     });
+   }
+
+  searchOtherPeoples() {
+    this.dataUsersConsult = null;
+    this.userOrJobCard = false;
   }
 }
