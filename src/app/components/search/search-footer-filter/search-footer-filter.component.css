@@ -1,0 +1,22 @@
+.sizeJumbotron {
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  bottom: 0;
+}
+
+.sizeJumbotronBig {
+  position: fixed;
+  bottom: 0;
+  height: 270px;
+  width: 100%;
+}
+
+.sizeTextFilter {
+  font-size: 20px;
+}
+
+.colorHover:hover {
+  background-color: #27292d;
+  color: white;
+}
